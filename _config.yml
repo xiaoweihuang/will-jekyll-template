@@ -1,0 +1,45 @@
+# Site settings
+description: A blog about lorem ipsum dolor sit amet
+baseurl: # the subpath of your site, e.g. /blog/
+url: # the base hostname & protocol for your site 
+
+#baseurl: "http://localhost:3000" # the subpath of your site, e.g. /blog/（第三行代码默认状态是这样的，会报错）
+#url: "http://localhost:3000" # the base hostname & protocol for your site （第四行代码默认状态是这样的，会报错）
+
+# User settings
+username: 肖伟煌
+user_description: 站在巨人的肩膀上，我们也要成为巨人的一部分。
+user_title: Front-End Developer
+email: scutxiaoweihuang@gmail.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
+disqus_username: lorem_ipsum
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
