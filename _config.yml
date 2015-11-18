@@ -33,13 +33,13 @@ compress_html:
 # For external links add external: true
 links:
   - title: Home
-    url: /
+    url: /will-jekyll-template/
   - title: Series
-    url: /series
+    url: /will-jekyll-template/series
   - title: Tags
-    url: /tags
+    url: /will-jekyll-template/tags
   - title: About Me
-    url: /about
+    url: /will-jekyll-template/about
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
